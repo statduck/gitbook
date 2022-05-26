@@ -102,8 +102,11 @@
 * [Gibbs Sampling](incomplete-posting/gibbs-sampling.md)
 * [Session 9(editing)](incomplete-posting/session-9.md)
 
+## Causal inference
+
 ***
 
 * [SQL](sql/README.md)
+  * [Introduction](sql/introduction.md)
   * [Basic Statement](sql/basic-statement.md)
   * [Join Statement](sql/join-statement.md)
