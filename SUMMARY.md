@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [(The link is changed)](README.md)
 * [Resume](master.md)
 * [Projects](projects/README.md)
   * [KBO Prediction](projects/untitled.md)
