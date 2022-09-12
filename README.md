@@ -1,8 +1,4 @@
-# (The link is changed)
-
-I change the flatform for writing into
+# (The link was changed)
 
 {% embed url="https://statduck.tistory.com" %}
-
-(The posts are moving..!)
 
