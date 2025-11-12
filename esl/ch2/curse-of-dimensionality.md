@@ -30,7 +30,7 @@ $$
 
 ✏️ **Second Problem**
 
-&#x20;    ****     `All sample becomes close into an edge.`&#x20;
+&#x20;    `All sample becomes close into an edge.`&#x20;
 
 $$
 \omega_p=\frac{\pi^{p/2}}{(p/2)!} \\ 

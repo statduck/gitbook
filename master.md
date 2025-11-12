@@ -1,5 +1,6 @@
 ---
 description: Data Analyst
+hidden: true
 ---
 
 # Resume

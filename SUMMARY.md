@@ -10,6 +10,10 @@
   * [Atlanta Police Station](projects/atlanta-police-station.md)
   * [Meal kit location strategy](projects/meal-kit-location-strategy.md)
 
+## Causal inference
+
+* [Page](causal-inference/page.md)
+
 ## Machine Learning <a href="#esl" id="esl"></a>
 
 * [Overview: Supervised Learning](esl/ch2/README.md)
@@ -101,8 +105,6 @@
 * [Ch6(editing)](incomplete-posting/untitled-1.md)
 * [Gibbs Sampling](incomplete-posting/gibbs-sampling.md)
 * [Session 9(editing)](incomplete-posting/session-9.md)
-
-## Causal inference
 
 ***
 
