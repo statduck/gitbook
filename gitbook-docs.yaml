@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: statduck
+  structure:
+    - type: space
+      key: space-1
+      title: statduck
+      path: statduck
+      default: true
+      content:
+        directory: ./statduck
