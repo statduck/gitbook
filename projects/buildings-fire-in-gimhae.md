@@ -1,8 +1,8 @@
 # Building's Fire in Gimhae
 
-![](<../.gitbook/assets/image (102).png>)
+![](<../.gitbook/assets/image (138).png>)
 
-****
+
 
 * **Problem**: Predictive Modeling of Building's Fire in Gimhae, South Korea 2021.
 * **Question**: How can we make a model, in the situation where the trend of data differs by season.

@@ -1,6 +1,6 @@
 # Parking Demand
 
-![](<../.gitbook/assets/image (189).png>)
+![](<../.gitbook/assets/image (18).png>)
 
 [code explanation](https://dacon.io/competitions/official/235745/codeshare/3025?page=1\&dtype=recent)
 

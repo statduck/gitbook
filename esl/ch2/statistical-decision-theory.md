@@ -55,7 +55,7 @@ $$
 
 
 
-&#x20;<mark style="background-color:yellow;">****</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">✏️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Conditional Expectation and KNN**</mark>
+&#x20;<mark style="background-color:yellow;">✏️</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**Conditional Expectation and KNN**</mark>
 
 $$
 \hat{f}(x)=Ave(y_i|x_i\in N_k(x))
@@ -74,7 +74,7 @@ $$
 
 
 
-&#x20;**** ✏️ **Conditional Expectation and linear regression.**
+&#x20;✏️ **Conditional Expectation and linear regression.**
 
 $$
 f(x)=E(Y|X=x)=x^T\beta \\
@@ -93,7 +93,7 @@ $$
 * Least squares assumes $$f(x)$$ is well approximated by a globally linear function.
 * k-nearest neighbors assumes $$f(x)$$ is well approximated by a locally constant function.
 
-****
+
 
 <mark style="background-color:yellow;">**✏️ Several Loss functions**</mark>
 

@@ -2,7 +2,7 @@
 
 ## Week1
 
-![](<../../.gitbook/assets/image (64).png>)
+![](<../../.gitbook/assets/image (189).png>)
 
 $$
 \hat{y}_i=x_i\dfrac{\sum x_jy_j}{\sum x_j^2}=\sum_m \dfrac{x_ix_m}{\sum_j x_j^2} y_m=a_my_m
@@ -10,7 +10,7 @@ $$
 
 
 
-![](<../../.gitbook/assets/image (65).png>)
+![](<../../.gitbook/assets/image (174).png>)
 
 $$
 \begin{split}
@@ -20,7 +20,7 @@ $$
 \end{split}
 $$
 
-![](<../../.gitbook/assets/image (66).png>)
+![](<../../.gitbook/assets/image (59).png>)
 
 ```python
 import ssl
@@ -64,7 +64,7 @@ lr.predict()
 
 ## Week2
 
-![](<../../.gitbook/assets/image (69).png>)
+![](<../../.gitbook/assets/image (88).png>)
 
 ```r
 install.packages('MASS')
@@ -75,9 +75,9 @@ step(lm(medv~1,  data=data), scope=~crim+zn+indus+chas+nox+rm+
 age+dis+rad+tax+ptratio+black+lstat,direction = "forward")
 ```
 
-![](<../../.gitbook/assets/image (72).png>)
+![](<../../.gitbook/assets/image (49).png>)
 
-![](<../../.gitbook/assets/image (73).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
 Four variables are included: lstat, rm, ptratio, dis
 
@@ -89,13 +89,13 @@ Adjusted R-squared is 0.6878.
 
 
 
-![](<../../.gitbook/assets/image (70).png>)
+<div align="left"><img src="../../.gitbook/assets/image (13).png" alt=""></div>
 
 
 
-![](<../../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (172).png>)
 
-![](<../../.gitbook/assets/image (75).png>)
+![](<../../.gitbook/assets/image (57).png>)
 
 > ref: [https://stats.stackexchange.com/questions/88912/optimism-bias-estimates-of-prediction-error](https://stats.stackexchange.com/questions/88912/optimism-bias-estimates-of-prediction-error)
 

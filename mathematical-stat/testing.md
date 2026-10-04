@@ -2,10 +2,7 @@
 
 &#x20;   Probability distribution means the probability a random variable has. According to the type of a random variable the name changes.
 
-| Type of X  | f(x)                              |
-| ---------- | --------------------------------- |
-| Discrete   | pmf(probability mass function)    |
-| Continuous | pdf(probability density function) |
+<table data-header-hidden><thead><tr><th width="150">Type of X</th><th>f(x)</th></tr></thead><tbody><tr><td>Type of X</td><td>f(x)</td></tr><tr><td>Discrete</td><td>pmf(probability mass function)</td></tr><tr><td>Continuous</td><td>pdf(probability density function)</td></tr></tbody></table>
 
 * Mass = Density \* length (in one dimension)
 * Mass = Density (in zero dimension)
@@ -26,5 +23,5 @@ $$
 
 
 
-![](<../.gitbook/assets/image (43).png>)
+![](<../.gitbook/assets/image (85).png>)
 

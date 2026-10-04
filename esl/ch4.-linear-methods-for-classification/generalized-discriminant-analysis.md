@@ -35,7 +35,7 @@ $$\theta_l$$ **and** $$\beta_l$$ **are chosen to minimize Average Squared Residu
 
 <mark style="background-color:yellow;">**Matrix Notation**</mark>
 
-* <mark style="background-color:yellow;">****</mark>$$Y$$ is a $$N\times J$$ matrix, $$Y_{ij}=1$$ if $$i_{th}$$ observation falls into $$j_{th}$$ class.
+* $$Y$$ is a $$N\times J$$ matrix, $$Y_{ij}=1$$ if $$i_{th}$$ observation falls into $$j_{th}$$ class.
 * $$\Theta$$ is a $$J \times K$$ matrix, the column vectors are $$k$$ score vectors for $$j_{th}$$ class.
 * $$\Theta^*=Y\Theta$$, it is a transformed class label vector.
 * $$ASR(\Theta)=tr(\Theta^{*T}(I-P_X)\Theta^*)/N=tr(\Theta^TY^T(I-P_X)Y\Theta)/N$$, s.t. $$P_X$$ is a projection onto the column space of $$X$$

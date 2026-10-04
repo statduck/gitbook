@@ -4,7 +4,7 @@
 
 Background knowledge:
 
-![](<../.gitbook/assets/image (157).png>)
+![](<../.gitbook/assets/image (179).png>)
 
 &#x20;   By comparing values of $$P(c(\bar{X})=1|x_1,...,x_d)$$ and $$P(c(\bar{X})=-1|x_1,...,x_d)$$, one can determine whether or not the active user likes $$\bar{X}$$. To predict $$P(c(\bar{X})=1)$$, the following expression is used.
 

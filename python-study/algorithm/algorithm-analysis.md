@@ -8,7 +8,7 @@ $$
 
 It is called as "f(n) is **big-Oh** of g(n)".&#x20;
 
-![](<../../.gitbook/assets/image (48).png>)
+![](<../../.gitbook/assets/image (156).png>)
 
 For example
 

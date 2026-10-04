@@ -1,10 +1,6 @@
 # Problem Definition
 
-| Cow | Milk(Y) | Age(X1) | Weight(X2) |
-| --- | ------- | ------- | ---------- |
-| #1  | 10      | 1       | 2          |
-| #2  | 11      | 3       | 3          |
-| #3  | 12      | 4       | 1          |
+<table><thead><tr><th>Cow</th><th width="157">Milk(Y)</th><th width="161">Age(X1)</th><th>Weight(X2)</th></tr></thead><tbody><tr><td>#1</td><td>10</td><td>1</td><td>2</td></tr><tr><td>#2</td><td>11</td><td>3</td><td>3</td></tr><tr><td>#3</td><td>12</td><td>4</td><td>1</td></tr></tbody></table>
 
 &#x20;    We want to find the model which well explains our target variable($$y$$) with $$x$$ variables. The model looks like this&#x20;
 

@@ -66,8 +66,7 @@ $$
 odds(z_a,z_b|y,X)=\frac{p(z_a|y,X)}{p(z_b|y,X)}=\frac{p(z_a)}{p(z_b)}*\frac{p(y|X,z_a)}{p(y|X,z_b)}
 $$
 
-해당 방식을 다음과 같이 정리할 수 있다. posterior odds = prior odds \* "Bayes factor"\
-
+해당 방식을 다음과 같이 정리할 수 있다. posterior odds = prior odds \* "Bayes factor"<br>
 
 이 경우 $$p(z)$$는 알고 있고, $$p(Y|X,z)$$의 경우 베타의 사전분포가 g-prior이면 구할 수있다.
 

@@ -72,20 +72,13 @@ $$
 
 ### ✏️ Graph
 
-![](<../../.gitbook/assets/image (79).png>)
+![](<../../.gitbook/assets/image (22).png>)
 
-![](<../../.gitbook/assets/image (136).png>)
+![](<../../.gitbook/assets/image (42).png>)
 
 ✏️ Another Perspective
 
-| Row  | Height | Weight | Gender |
-| ---- | ------ | ------ | ------ |
-| Row1 | 5.2    | 1.4    | 0      |
-| Row2 | 5.2    | 3.5    | 0      |
-| Row3 | 3.5    | 2.2    | 0      |
-| Row4 | 3.6    | 5.4    | 1      |
-| Row5 | 7.5    | 6.5    | 1      |
-| Row6 | 6.6    | 7.5    | 1      |
+<table><thead><tr><th>Row</th><th width="153">Height</th><th width="153">Weight</th><th>Gender</th></tr></thead><tbody><tr><td>Row1</td><td>5.2</td><td>1.4</td><td>0</td></tr><tr><td>Row2</td><td>5.2</td><td>3.5</td><td>0</td></tr><tr><td>Row3</td><td>3.5</td><td>2.2</td><td>0</td></tr><tr><td>Row4</td><td>3.6</td><td>5.4</td><td>1</td></tr><tr><td>Row5</td><td>7.5</td><td>6.5</td><td>1</td></tr><tr><td>Row6</td><td>6.6</td><td>7.5</td><td>1</td></tr></tbody></table>
 
 We can use linear combination of $$a_ 1H+a_2W$$ to make this table into two cluster.
 
@@ -128,5 +121,5 @@ $$
 
 This expression is similar with the expression of LDA, but a quadratic term still remains.
 
-![](<../../.gitbook/assets/image (137).png>)
+![](<../../.gitbook/assets/image (149).png>)
 

@@ -8,7 +8,7 @@
 4. 위의 인덱스 j,k를 가지는 계수 $$\beta_j,\beta_k$$를 $$\langle x_j,x_k \rangle$$으로 값을 키운다. 이 때 모형은 $$r_2=y-\bar{y}-\hat{\beta}_jx_j-\hat{\beta}_kx_k$$. 값을 다음의 부등식을 유지하는 범위에서 키운다. $$\langle x_j,x_k \rangle \leq \langle x_l,r_2\rangle$$
 5. 이러한 방식을 p개의 x들이 모두 모형에 들어갈 때 까지 반복한다. $$min(N-1,p)$$스텝 이후 이는 full-least-squares solution과 같아진다.
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (106).png>)
 
 Full least squares을 구하기 위해서 계산을 그저 p번만 행하면 되므로 매우 계산 효과적인 알고리즘이다. 변수를 표준화하는 이유는 corr을 바로 내적으로 계산하기 위해서이다.
 
@@ -58,6 +58,6 @@ $$
 4. $$\hat{y}^{(m)}=\hat{y}^{(m-1)}+\hat{\theta}_mz_m$$
 5. Orthogonalizae each $$x_j^{(m-1)}$$with respect to $$z_m$$: $$x_j^{(m)}$$
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (142).png>)
 
 Y와 high variance\&high correlation을 가지도록 집중한다.

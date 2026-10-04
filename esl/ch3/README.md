@@ -16,7 +16,7 @@ $$
 
 It is the method that every possible regression fitting by Subset size k. ( The optimal value in subset size 1 doesn't have to be optimal in size 2.)
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (44).png>)
 
 
 
@@ -26,7 +26,7 @@ Forward: Starting from zero model(Only intercept term exists), we put variables 
 
 Backward: Starting from Full model, we remove variables from our model one by one.
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/image (144).png>)
 
 
 

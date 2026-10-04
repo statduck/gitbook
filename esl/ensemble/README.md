@@ -12,7 +12,7 @@
 
 &#x20;   Random code assignment worked as well as the optimally constructed error-correcting codes. The idea is that the redundant "error correcting" bits allow for some inaccuracies, and can improve performance.
 
-![](<../../.gitbook/assets/image (118).png>)
+![](<../../.gitbook/assets/image (146).png>)
 
 1. Learn a separate classifier for each of the $$L=15$$
 2. At a test point $$x$$, $$\hat{p}_l(x)$$is the predicted probability of a one for the $$l_{th}$$ response.
@@ -72,7 +72,7 @@ $$
 
 
 
-![  ](<../../.gitbook/assets/image (92).png>)
+![  ](<../../.gitbook/assets/image (159).png>)
 
 &#x20;   When all of the basis functions $$T_k$$ are mutually uncorrelated, FS shows exactly the same solution with lasso for bound parameter $$t=\sum_k |\alpha_k|$$ ( Even if these functions are not uncorrelated, when $$\hat{\alpha}_k(\lambda)$$ is a monotone function of $$\lambda$$, FS also becomes same with lasso regression.) The regularization term $$\lambda$$ is inversely proportional to the Lagrange constant $$t$$. $$M =250, \;\varepsilon=0.01$$ in the right panel.&#x20;
 
@@ -86,7 +86,7 @@ $$
 
 * Dense Scenario: 10,000 data points and a linear combination of million trees with coefficients from a Gaussian distribution. → Ridge works better than Lasso
 
-![](<../../.gitbook/assets/image (91).png>)
+![](<../../.gitbook/assets/image (6).png>)
 
 * Sparse Scenario: 10,000 data points and a linear combination of 1,000 tress with nonzero coefficients. → Lasso works well.
 
@@ -96,29 +96,29 @@ $$
 
 
 
-![](<../../.gitbook/assets/image (116).png>)
+![](<../../.gitbook/assets/image (28).png>)
 
 &#x20;   In this example, NSR is defined as $$Var(Y|\eta(X))/Var(\eta(X))$$. The nominator is the variance of $$Y$$(unexplained part), and the denominator is the variance of our model. The bigger NSR is, the bigger the rate of unexplainable error is. It has been known as that lasso works well for sparse setting.
 
-**>>** [**Reference**](https://www.stat.cmu.edu/\~ryantibs/statml/lectures/sparsity.pdf) **<<**
+**>>** [**Reference**](https://www.stat.cmu.edu/~ryantibs/statml/lectures/sparsity.pdf) **<<**
 
-****
 
-****
+
+
 
 **Regularization Paths, Over-fitting and Margins**
 
-&#x20;   ****   &#x20;
+&#x20;      &#x20;
 
-![](<../../.gitbook/assets/image (164).png>)
+![](<../../.gitbook/assets/image (71).png>)
 
-&#x20;   ****    Lasso suffers somewhat from the multi-collinearity problem(you can check the reason in Ex. 3.28). Because in the exercise 3.28, when lasso has the exact same copy $$X_j^*=X_j$$, the coefficients for $$X_j^*,X_j$$ become $$a/2, a/2$$ which is the a half of the original coefficient $$a$$.
+&#x20;   Lasso suffers somewhat from the multi-collinearity problem(you can check the reason in Ex. 3.28). Because in the exercise 3.28, when lasso has the exact same copy $$X_j^*=X_j$$, the coefficients for $$X_j^*,X_j$$ become $$a/2, a/2$$ which is the a half of the original coefficient $$a$$.
 
-![ESL Solution](<../../.gitbook/assets/image (159).png>)
+![ESL Solution](<../../.gitbook/assets/image (128).png>)
 
-****
 
-****
+
+
 
 **Monotone version of the lasso**
 
@@ -132,7 +132,7 @@ $$
 
 &#x20;   In this setting,&#x20;
 
-![Hastie & Taylor & Tibshirani  \&Walther, Forward stagewise regression and the monotone lasso, Electronic Journal of Statistics Vol1. (2007) 1-29](<../../.gitbook/assets/image (152).png>)
+![Hastie & Taylor & Tibshirani  \&Walther, Forward stagewise regression and the monotone lasso, Electronic Journal of Statistics Vol1. (2007) 1-29](<../../.gitbook/assets/image (182).png>)
 
 &#x20;       The monotone lasso coefficient path $$\beta(l)$$ for a dataset $$\tilde{X}=\{X,-X\}$$ is the solution to the different equation $$\dfrac{\partial \beta}{\partial l}=\rho_{ml}(\beta(l))$$. The $$\rho_{ml}(\beta)$$ is standardized to have unit $$L_1$$ norm, which is the $$L_1$$ arc length in the monotone lasso situation.
 

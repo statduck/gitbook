@@ -54,7 +54,7 @@ $$
 
 ## Poisson distribution
 
-![](<../.gitbook/assets/image (53).png>)
+![](<../.gitbook/assets/image (191).png>)
 
 $$
 X \sim Poisson(\lambda), \quad \lambda >0 \\
@@ -66,7 +66,7 @@ $$\lambda$$is the occurrence number of events per time unit.
 
 > [https://towardsdatascience.com/the-poson-distribution-and-poisson-process-explained-4e2cb17d459](https://towardsdatascience.com/the-poisson-distribution-and-poisson-process-explained-4e2cb17d459)
 
-![](<../.gitbook/assets/image (59).png>)
+![](<../.gitbook/assets/image (105).png>)
 
 ### Properties
 
@@ -111,9 +111,9 @@ $$
 
 ### Exercises
 
-![](<../.gitbook/assets/image (62).png>)
+![](<../.gitbook/assets/image (24).png>)
 
 
 
-![](<../.gitbook/assets/image (63).png>)
+![](<../.gitbook/assets/image (83).png>)
 

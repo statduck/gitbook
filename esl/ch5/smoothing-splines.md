@@ -69,7 +69,7 @@ Use (b) to argue that the minimizer must be a cubic spline with knots at each of
 
 
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (177).png>)
 
 > John L. Weatherwax & David Epstein, A Solution Manual and Notes for: The Elements of Statistical Learning by Jerome Friedman, Trevor Hastie, and Robert Tibshirani, 1 March 2021
 

@@ -18,4 +18,4 @@ $$\hat{\sigma}^2I$$ also can be changed into $$diag(\hat{\Sigma}), \hat{\Sigma}/
 
 
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (110).png>)

@@ -4,9 +4,9 @@
 
 &#x20;Novelty Detection is the detection for whether a new data point is an outlier, and outlier detection is the detection for whether a train data is an outlier. In other words, we find the most concentrated area in outlier detection.
 
-![](<../../.gitbook/assets/image (142).png>)
+![](<../../.gitbook/assets/image (69).png>)
 
-[Reference](https://scikit-learn.org/stable/modules/outlier\_detection.html)
+[Reference](https://scikit-learn.org/stable/modules/outlier_detection.html)
 
 &#x20;For outlier detection, we first fit density. We define the data point as outlier if it has in low density. $$density \; function \leq t$$&#x20;
 

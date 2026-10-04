@@ -55,7 +55,7 @@ sns.lineplot(x=x,y=y)
 sns.lineplot(x=x0.reshape(1,-1)[0],y=y_hat)
 ```
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (17).png>)
 
 
 

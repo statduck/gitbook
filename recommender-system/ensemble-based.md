@@ -4,7 +4,7 @@
 
 &#x20;   Recommender system is the generalization of a classification algorithm. The difference is explained by this figure.
 
-![](<../.gitbook/assets/image (100).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 &#x20;   The only difference is that missing entries can occur in any column. Nevertheless, the bias-variance structure still remain. $$Error = Bias^2 + Var + Noise$$
 
@@ -159,11 +159,11 @@ Update is iteratively repeated to convergence.
 
 <mark style="background-color:yellow;">**Neighborhood-based algorithm**</mark>
 
-<mark style="background-color:yellow;">****</mark>
 
-![](<../.gitbook/assets/image (162).png>)
 
-![](<../.gitbook/assets/image (187).png>)
+![](<../.gitbook/assets/image (19).png>)
+
+![](<../.gitbook/assets/image (113).png>)
 
 
 
@@ -171,7 +171,7 @@ Update is iteratively repeated to convergence.
 
 &#x20;   The weighted sum of squares of the errors have to be minimized.&#x20;
 
-![](<../.gitbook/assets/image (114).png>)
+![](<../.gitbook/assets/image (150).png>)
 
 ## Feature Augmentation
 

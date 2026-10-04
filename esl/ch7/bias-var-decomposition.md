@@ -71,4 +71,4 @@ In short, by restricting the range of parameters the bias is increased than one 
 
 
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (117).png>)

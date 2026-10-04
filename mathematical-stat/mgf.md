@@ -132,5 +132,5 @@ $$
 
 (4) mode of X
 
-![](<../.gitbook/assets/image (67).png>)
+![](<../.gitbook/assets/image (183).png>)
 

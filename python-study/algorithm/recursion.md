@@ -16,7 +16,7 @@
 
 
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../.gitbook/assets/image (100).png>)
 
 ```python
 def factorial(n):
@@ -30,7 +30,7 @@ def factorial(n):
 
 ### Drawing an English Ruler
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 ```python
 def draw_line(tick_length, tick_label=''):
@@ -56,7 +56,7 @@ def draw_ruler(num_inches, major_length):
 
 ```
 
-![](<../../.gitbook/assets/image (46).png>)
+![](<../../.gitbook/assets/image (58).png>)
 
 
 
@@ -68,7 +68,7 @@ def draw_ruler(num_inches, major_length):
 * If target < data\[mid], then we recur on the first half of the sequence, that is, on the interval of indices from low to mid-1.
 * If target > data\[mid], then we recur on the second half of the sequence, that is, on the interval of indices from mid+1 to high.
 
-![](<../../.gitbook/assets/image (47).png>)
+![](<../../.gitbook/assets/image (190).png>)
 
 ```python
 def binary_search(data, target, low, high):
@@ -88,7 +88,7 @@ def binary_search(data, target, low, high):
             return binary_search(data, target,mid+1,high) 
 ```
 
-![](<../../.gitbook/assets/image (49).png>)
+![](<../../.gitbook/assets/image (129).png>)
 
 
 
@@ -169,17 +169,17 @@ S=\[4,3,6,2,8], linear\_sum(S,5)=23
 
 **Q2. Write a short recursive Python function that finds the minimum and maximum values in a sequence without using any loops.**
 
-****
+
 
 **Q3. Give a recursive algorithm to compute the product of two positive integers, m and n, using only addition and subtraction.**
 
-****
 
-****
 
-****
 
-****
+
+
+
+
 
 
 

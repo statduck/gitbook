@@ -18,7 +18,7 @@ $$
 e_{ij}=r_{ij}-\hat{r}_{ij}=r_{ij}-o_i-p_j-\sum^k_{s=1}u_{is}\cdot v_{js}
 $$
 
-![](<../../.gitbook/assets/image (181).png>)
+![](<../../.gitbook/assets/image (130).png>)
 
 &#x20;   The regularization factor $$\lambda$$ can be differ from user biases, item biases, and factor variables. Instead of having separate bias variable $$o_i$$ and $$p_j$$, we just can increase the size of the factor matrices to incorporate these bias variables as follows:
 
@@ -28,9 +28,9 @@ $$
 
 &#x20;   Now $$U$$ is $$m\times (k+2)$$ matrix and $$V$$ is $$n \times (k+2)$$ matrix. The optimization problem is changed as follows:
 
-![](<../../.gitbook/assets/image (130).png>)
+![](<../../.gitbook/assets/image (192).png>)
 
-![](<../../.gitbook/assets/image (89).png>)
+![](<../../.gitbook/assets/image (45).png>)
 
 <details>
 
@@ -72,7 +72,7 @@ $$
 
 * The $$m\times n$$implicit feedback matrix$$F$$ is a row-scaled matrix of rating matrix.
 
-![](<../../.gitbook/assets/image (175).png>)
+![](<../../.gitbook/assets/image (81).png>)
 
 * The $$n\times k$$implicit item-factor matrix $$Y$$: if the element is large, it means that the act of rating item $$i$$ contains significant information about the affinity of that action for the $$j_{th}$$ latent component, no matter what the actual value of the rating might be.
 * The $$n\times k$$explicit item-factor matrix $$V$$.
@@ -90,9 +90,9 @@ $$
 * $$FY$$is used to adjust the explicit user-factor matrix $$U$$
 * The implicit feedback component of the predicted rating is given by $$(FY)V^T$$
 
-![](<../../.gitbook/assets/image (96).png>)
+![](<../../.gitbook/assets/image (108).png>)
 
-![](<../../.gitbook/assets/image (141).png>)
+![](<../../.gitbook/assets/image (115).png>)
 
 &#x20;   $$(i,s)_{th}$$ entry of $$[FY]$$ is given by $$\sum_{h\in I_i}\frac{y_{hs}}{\sqrt{|I_i|}}$$. This model can be viewed as a combination of the unconstrained matrix factorization model and the asymmetric factorization model. In terms of its having an implicit feedback term together with its regularizer, it's different from the model in the previous section.
 
@@ -114,7 +114,7 @@ $$y_{hq} \Leftarrow y_{hq}+\alpha(\dfrac{e_{ij}\cdot v_{jq}}{\sqrt{|I_i|}}-\lamb
 
 <mark style="background-color:yellow;">**Solution: Non-negative Matrix Factorization**</mark>
 
-![](<../../.gitbook/assets/image (166).png>)
+![](<../../.gitbook/assets/image (80).png>)
 
 &#x20;   NMF provides great interpretability to implicit feedback situation. Especially, it is useful for the mechanism to specify a liking for an item, but no mechanism to specify a dislike. In customer transaction data, not buying an item does not necessarily imply a dislike because there is a probability of customers buying this item.
 
@@ -144,15 +144,15 @@ $$v_{ij} \Leftarrow max\{[\dfrac{(R^TU)_{ij}-\lambda_2 v_{ij}}{(VU^TU)_{ij}+\eps
 
 </details>
 
-![](<../../.gitbook/assets/image (88).png>)
+![](<../../.gitbook/assets/image (50).png>)
 
 * There are clear two classes of dairy products and drinks.
 * All customers seem like juice, but there is a high correlation between user and buying aspects.&#x20;
 * Customer 1 to 4 like dairy products, whereas customer 4 to 6 like drinks.
 
-![Each of a part can be viewed as a user-item co-cluster](<../../.gitbook/assets/image (172).png>)
+![Each of a part can be viewed as a user-item co-cluster](<../../.gitbook/assets/image (90).png>)
 
-![](<../../.gitbook/assets/image (122).png>)
+![](<../../.gitbook/assets/image (137).png>)
 
 $$
 UV^T=\sum^k_{i=1}\bar{U}_i\bar{V}_i^T

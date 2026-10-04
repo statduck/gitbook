@@ -2,7 +2,7 @@
 
 ### ✏️ Calculation
 
-![](<../../.gitbook/assets/image (105).png>)
+![](<../../.gitbook/assets/image (114).png>)
 
 $$
 \delta_k(x) =-\dfrac{1}{2}log|\hat{\Sigma}_k|-\dfrac{1}{2}(x-\mu_k)^T\hat{\Sigma}_k^{-1}(x-\mu_k)+log\pi_k
@@ -30,7 +30,7 @@ W^TW=\Sigma^{-1} \\
 D^{-1/2}U^T=W
 $$
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (12).png>)
 
 
 

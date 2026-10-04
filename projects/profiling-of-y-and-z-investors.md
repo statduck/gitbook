@@ -1,6 +1,6 @@
 # Profiling of Y\&Z Investors
 
-![](<../.gitbook/assets/image (78).png>)
+![](<../.gitbook/assets/image (103).png>)
 
 [Presentation File](https://statkwon.github.io/projects/nh/) / [Competition Explanation](https://dacon.io/competitions/official/235663/overview/description)
 

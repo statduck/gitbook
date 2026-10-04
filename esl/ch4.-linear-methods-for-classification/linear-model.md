@@ -6,5 +6,5 @@
 * $$\hat{G}(x)=argmax_{k \in g}\hat{f}_k(x) \rightarrow \hat{G}(x)=argmin_{k}||\hat{f}(x)-t_k||^2$$
 * $$\sum_k\hat{G}(x)=1$$
 
-![](<../../.gitbook/assets/image (176).png>)
+![](<../../.gitbook/assets/image (4).png>)
 

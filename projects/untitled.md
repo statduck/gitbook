@@ -4,7 +4,7 @@ description: 2020 Predicting Winning Rates, AVG, and ERA by team in KBO
 
 # KBO Prediction
 
-![](<../.gitbook/assets/image (112).png>)
+![](<../.gitbook/assets/image (89).png>)
 
 &#x20;   The competition is held by [Big-contest](https://www.bigcontest.or.kr/index.php)
 
@@ -16,7 +16,6 @@ description: 2020 Predicting Winning Rates, AVG, and ERA by team in KBO
 * **Period**: 2020.07-2020.11
 * **Prize**: Advanced to the finals
 
-****
 
 
 
@@ -24,7 +23,6 @@ description: 2020 Predicting Winning Rates, AVG, and ERA by team in KBO
 
 
 
-****
 
 
 
@@ -32,4 +30,5 @@ description: 2020 Predicting Winning Rates, AVG, and ERA by team in KBO
 
 
 
-****
+
+

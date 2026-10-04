@@ -1,6 +1,6 @@
 # Atlanta Police Station
 
-![](<../.gitbook/assets/image (84).png>)
+![](<../.gitbook/assets/image (63).png>)
 
 * **Course**: CX4242 in Fall 2021 Georgia Tech
 * **Topic**: We recommend the location and the staff composition of Atlanta police station.

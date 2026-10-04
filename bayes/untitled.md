@@ -14,11 +14,7 @@ $$
 \\ \tilde{y}|data \sim Ber(\dfrac{a+\Sigma^n_{i=1}y_i}{a+b+n})
 $$
 
-|           | Success        | Fail             | Number  | $$\theta$$ |
-| --------- | -------------- | ---------------- | ------- | ---------- |
-| belief    | $$a$$          | $$b$$            | $$a+b$$ |            |
-| data      | $$\Sigma y$$   | $$n-\Sigma y$$   | n       |            |
-| posterior | $$a+\Sigma y$$ | $$b+n-\Sigma y$$ |         |            |
+<table data-header-hidden><thead><tr><th width="150"></th><th width="150">Success</th><th width="150">Fail</th><th>Number</th><th></th></tr></thead><tbody><tr><td></td><td>Success</td><td>Fail</td><td>Number</td><td><span class="math">\theta</span></td></tr><tr><td>belief</td><td><span class="math">a</span></td><td><span class="math">b</span></td><td><span class="math">a+b</span></td><td></td></tr><tr><td>data</td><td><span class="math">\Sigma y</span></td><td><span class="math">n-\Sigma y</span></td><td>n</td><td></td></tr><tr><td>posterior</td><td><span class="math">a+\Sigma y</span></td><td><span class="math">b+n-\Sigma y</span></td><td></td><td></td></tr></tbody></table>
 
 
 
@@ -45,15 +41,11 @@ $$
 
 $$\theta|data$$ follows gamma distribution as a following proof.
 
-![증명](../.gitbook/assets/image.png)
+![증명](<../.gitbook/assets/image (10).png>)
 
 &#x20;We find prior and posterior distribution, so we can make a bayesian poisson model.
 
-|           | Typo           | Page    | Typo per page   |
-| --------- | -------------- | ------- | --------------- |
-| Prior     | $$a$$          | $$b$$   | $$a/b$$         |
-| Data      | $$\Sigma y$$   | $$n$$   | $$\Sigma y /n$$ |
-| Posterior | $$a+\Sigma y$$ | $$b+n$$ |                 |
+<table data-header-hidden><thead><tr><th width="150"></th><th width="150">오타</th><th width="150">페이지</th><th>오타/페이</th></tr></thead><tbody><tr><td></td><td>Typo</td><td>Page</td><td>Typo per page</td></tr><tr><td>Prior</td><td><span class="math">a</span></td><td><span class="math">b</span></td><td><span class="math">a/b</span></td></tr><tr><td>Data</td><td><span class="math">\Sigma y</span></td><td><span class="math">n</span></td><td><span class="math">\Sigma y /n</span></td></tr><tr><td>Posterior</td><td><span class="math">a+\Sigma y</span></td><td><span class="math">b+n</span></td><td></td></tr></tbody></table>
 
 * $$a+\Sigma y$$: The number of typo we already knew.
 * $$b+n$$: The number of pages we already knew.
@@ -157,7 +149,7 @@ Which has the same with prior.
 
 
 
-### &#x20;
+### <br>
 
 
 

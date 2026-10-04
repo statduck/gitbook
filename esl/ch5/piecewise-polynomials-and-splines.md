@@ -2,7 +2,7 @@
 
 ### ✏️ Local regression using range function.
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (33).png>)
 
 $$
 f(X)=\beta_1I(X<\xi_1)+\beta_2I(\xi_1\leq X<\xi_2)+\beta_3I(\xi_2 \leq X)
@@ -10,7 +10,7 @@ $$
 
 In this case, estimated beta is equal to the mean of target in each area.
 
-![](<../../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (198).png>)
 
 $$
 \begin{split}
@@ -26,7 +26,7 @@ $$(X-\xi_1)_+$$ can be changed into $$max(0,X-\xi_1)$$.
 
 ### ✏️ Piecewise Cubic Polynomials
 
-![](<../../.gitbook/assets/image (31).png>)
+![](<../../.gitbook/assets/image (74).png>)
 
 $$
 f(X)=\beta_1+\beta_2X+\beta_3X^2+\beta_4X^3+\beta_5(X-\xi_1)^3_++\beta_6(X-\xi_2)^3_+
@@ -53,7 +53,7 @@ $$
 
 ### ✏️ Weakness of Local polynomial regression
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (165).png>)
 
 1. It shows irregular tendency around border lines
 2. It's hard to use extrapolation

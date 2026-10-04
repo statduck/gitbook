@@ -24,7 +24,7 @@ $$
 
 &#x20;   The residual matrix is $$(R-UV^T)$$ and the error is $$||R-UV^T||^2$$. In this situation $$|| \cdot ||$$ is the Frobenius norm(It calculates the sum of the squares for every entries).&#x20;
 
-![](<../../.gitbook/assets/image (106).png>)
+![](<../../.gitbook/assets/image (168).png>)
 
 &#x20;    In this case the genre becomes the latent vector(concept). In this chapter, we want to find the elements in $$U$$ and $$V$$ matrix by solving an optimization problem.
 
@@ -34,7 +34,7 @@ $$
 
 
 
-![](<../../.gitbook/assets/image (177).png>)
+![](<../../.gitbook/assets/image (136).png>)
 
 &#x20;   Let's assume the ratings of these three movies are highly positively correlated. In this case, just one latent factor is enough to explain the trend of a data. When we know just one rating score, we can also know the other ratings of other movies by finding the intersection point between a plane and a vector.
 
@@ -85,9 +85,9 @@ $$
 
 <mark style="background-color:yellow;">**Solution: GD**</mark>
 
-![](<../../.gitbook/assets/image (161).png>)
+![](<../../.gitbook/assets/image (96).png>)
 
-![](<../../.gitbook/assets/image (86).png>)
+![](<../../.gitbook/assets/image (9).png>)
 
 * $$q$$ denotes the index of latent variables.
 * &#x20;$$\nabla J=[\dfrac{\partial J}{\partial u_{iq}} \; | \; \dfrac{\partial J}{\partial v_{jq}} ], \; \; VAR=[U \; | \; V]=VAR-\alpha\cdot \nabla J$$
@@ -95,7 +95,7 @@ $$
 
 <mark style="background-color:yellow;">**Solution: SGD**</mark>
 
-![](<../../.gitbook/assets/image (95).png>)
+![](<../../.gitbook/assets/image (72).png>)
 
 &#x20;   Different from the update method above, SGD can update entries in matrices by only using a part of a set $$S$$.&#x20;
 
@@ -110,15 +110,15 @@ $$
 
 &#x20;   The basic idea of regularization is to discourage very large entries in $$U$$and $$V$$by adding a regularization term, $$\dfrac{\lambda}{2}(||U||^2+||V||^2)$$ into the optimization problem
 
-![](<../../.gitbook/assets/image (198).png>)
+![](<../../.gitbook/assets/image (97).png>)
 
-![](<../../.gitbook/assets/image (108).png>)
+![](<../../.gitbook/assets/image (98).png>)
 
 &#x20;   In this case the regularization term is $$L_2$$norm.&#x20;
 
 **✏️Gradient Descent**
 
-![](<../../.gitbook/assets/image (94).png>)
+![](<../../.gitbook/assets/image (99).png>)
 
 * $$U \Leftarrow U(1-\alpha \cdot \lambda)+\alpha EV, \; V \Leftarrow V(1-\alpha \cdot \lambda)+\alpha E^TU$$
 
@@ -126,7 +126,7 @@ $$
 
 **✏️Stochastic gradient descent - vectorized local updates**
 
-![](<../../.gitbook/assets/image (195).png>)
+![](<../../.gitbook/assets/image (141).png>)
 
 * $$\vec{u_i}\Leftarrow \vec{u_i}+\alpha(e_{ij}\vec{v_j}-\lambda \vec{u_i}),\; \vec{v_j} \Leftarrow \vec{v_j}+\alpha(e_{ij}\vec{u_i}-\lambda \vec{v_j})$$
 
@@ -150,7 +150,7 @@ The book said the local update use $$u_{iq}$$and$$v_{jq}$$ several times, while 
 
 &#x20;   It's also possible to train the latent components incrementally. The approach repeatedly cycles through all the observed entries in $$S$$ while performing theses updates for $$q=1$$ until convergence is reached.
 
-![](<../../.gitbook/assets/image (87).png>)
+![](<../../.gitbook/assets/image (107).png>)
 
 $$
 R\approx UV^T=\sum^k_{q=1}\vec{U_q}\vec{V_q}^T
@@ -210,7 +210,7 @@ $$
 * $$Q_k\Sigma_k$$ contains the transformed and reduced $$m\times k$$ representation of the original rating matrix
 * $$U=Q_k\Sigma_k, \;\; V=P_k$$
 
-![](<../../.gitbook/assets/image (110).png>)
+![](<../../.gitbook/assets/image (15).png>)
 
 &#x20;   When $$R$$ is incompletely specified, one can impute missing entries by using row-wise average.&#x20;
 

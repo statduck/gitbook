@@ -32,7 +32,7 @@ $$
 
 &#x20;   $$F$$ has a distribution, so we can do zero value test for the coefficient. This testing gives hint for eliminating some input variables.
 
-****
+
 
 ## **Gauss-Markov Theorem**
 
@@ -82,7 +82,7 @@ $$
 
 **Ridge, Lasso, and Elastic Net**
 
-![](<../../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (125).png>)
 
 
 

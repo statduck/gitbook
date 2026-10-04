@@ -2,9 +2,7 @@
 
 Compare Aerobic group and Running group! We can compare these two groups by showing that $$\beta_0=\beta_1=0$$. Our concern is **Full probability model** $$p(y,\beta,\sigma^2)=p(\beta,\sigma^2)p(y|\beta,\sigma^2)$$
 
-| semi-conjugate prior                                    | full-conjugate prior |
-| ------------------------------------------------------- | -------------------- |
-| Prior and conditional probability has same distribution | Dependent prior      |
+<table data-header-hidden><thead><tr><th width="367">semi-conjugate prior</th><th>full-conjugate prior</th></tr></thead><tbody><tr><td>semi-conjugate prior</td><td>full-conjugate prior</td></tr><tr><td>Prior and conditional probability has same distribution</td><td>Dependent prior</td></tr></tbody></table>
 
 ### Semi conjugate prior
 
@@ -151,13 +149,13 @@ autocorr.plot(set2)
 
 ![](<../.gitbook/assets/스크린샷 2021-05-18 오후 10.30.23.png>)
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (93).png>)
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (25).png>)
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (180).png>)
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (164).png>)
 
 
 

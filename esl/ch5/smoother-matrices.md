@@ -53,11 +53,11 @@ $$
 
 **Smoothing Spline 예시**
 
-![](<../../.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (121).png>)
 
-![](<../../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (48).png>)
 
-![](<../../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (123).png>)
 
 붉은 선은 5개의 변수를, 초록 선은 11개의 변수를 $$df_\lambda$$로 잡은 경우이다. 각 고유벡터에 해당하는 고유값은 특정 고유벡터의 크기를 나타내는 것이고 여기서 고유값이 작은 고유벡터는 무시하는 것이다. 우측 하단의 경우에는 각 데이터 포인트에 해당하는 고유벡터의 값을 나타낸 것이다.&#x20;
 

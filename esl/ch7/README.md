@@ -9,7 +9,7 @@ $$
 
 $$Err_\tau$$is **a test error**, and $$Err$$is **an expected test error**.
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (60).png>)
 
 &#x20;In this situation, we all talk about random data so we can't get the exact value of this error. Conditioned on $$\mathcal{T}$$, random elements of $$\mathcal{T}$$become realization.
 
@@ -30,7 +30,7 @@ $$\mathcal{T}=\{{(x_1,y_1),\dots,(x_N,y_N)\}}$$ It is a realization version of r
 
 &#x20;In an ideal situation, we split our data into three parts: Train(0.5), Validation(0.25), and Test(0.25). In train set we fit our model to data, and select model in validation set(Most well performed model in validation set). After that, we predict  $$Err_\mathcal{T}$$ of our final model and assess this model.
 
-****
+
 
 ##
 

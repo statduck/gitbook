@@ -2,7 +2,7 @@
 
 
 
-![](<../.gitbook/assets/image (191).png>)
+![](<../.gitbook/assets/image (75).png>)
 
 Meal kit location strategy from market food through cluster analysis
 

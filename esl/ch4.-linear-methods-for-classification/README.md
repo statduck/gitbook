@@ -6,7 +6,7 @@ description: Linear Methods For Classification
 
 
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (76).png>)
 
 &#x20;Classification problem. Classification means target variable has a categorical value. Let's assume Y has only zero or one, and g is the value. Connect Y and g.
 

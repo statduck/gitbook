@@ -2,7 +2,7 @@
 
 ## <mark style="background-color:yellow;">Classification Problem</mark>
 
-<mark style="background-color:yellow;"></mark>![](<../../.gitbook/assets/image (93).png>)
+![](<../../.gitbook/assets/image (102).png>)
 
 $$
 y(x)=w^Tx+b
@@ -132,7 +132,7 @@ $$
 
 $$g \; is \; a \; subgradient \;of \;f:X\rightarrow R \; at  \; x \in X \\ for \; any \; y \in X: f(y) \geq f(x)+\langle g,y-x\rangle$$
 
-[\[More about subgradient\]](https://convex-optimization-for-all.github.io/contents/chapter07/2021/03/25/07\_01\_subgradient/)
+[\[More about subgradient\]](https://convex-optimization-for-all.github.io/contents/chapter07/2021/03/25/07_01_subgradient/)
 
 
 
@@ -142,7 +142,7 @@ $$
 f(x)=x^T\beta+\beta_0 \\ H(\beta,\beta_0)=\Sigma^N_{i=1}V(y_i-f(x_i))+\dfrac{\lambda}{2}||\beta||^2
 $$
 
-![](<../../.gitbook/assets/image (123).png>)
+![](<../../.gitbook/assets/image (70).png>)
 
 &#x20;   In regression problem, we want to permit the error size by $$\epsilon$$. Based on the regression line, the point in the range from $$-\epsilon$$ to $$+\epsilon$$ is regarded as the correct point.&#x20;
 
@@ -154,13 +154,13 @@ $$
 V_H(r)=\begin{cases} r^2/2 & if \; |r| \leq c, \\ c|r|-c^2/2, & |r|>c \end{cases}
 $$
 
-> SVMs solve binary classification problems by formulating them as convex optimization problems (Vapnik 1998). The optimization problem entails finding the maximum margin separating the hyperplane, while correctly classifying as many training points as possible. SVMs represent this optimal hyperplane with support vectors. - [Reference](https://link.springer.com/chapter/10.1007/978-1-4302-5990-9\_4)
+> SVMs solve binary classification problems by formulating them as convex optimization problems (Vapnik 1998). The optimization problem entails finding the maximum margin separating the hyperplane, while correctly classifying as many training points as possible. SVMs represent this optimal hyperplane with support vectors. - [Reference](https://link.springer.com/chapter/10.1007/978-1-4302-5990-9_4)
 
 
 
 &#x20;   The problem above can be solved by another optimization problem.
 
-![are the distance from the support vector to the point outside.](<../../.gitbook/assets/image (173).png>)
+![are the distance from the support vector to the point outside.](<../../.gitbook/assets/image (112).png>)
 
 &#x20;   In the view of support vector, this problem is changed into this form.(let $$\beta$$ be equal to $$w$$)
 
@@ -299,5 +299,5 @@ ax.axline((0, intercept2), slope=slope2, color='black', linestyle='dashed', line
 plt.show()
 ```
 
-![](<../../.gitbook/assets/image (163).png>)
+![](<../../.gitbook/assets/image (173).png>)
 

@@ -72,7 +72,7 @@ $$
 
 &#x20;For this check, we should measure the ratio of correct and wrong classification. When there are a lot of wrong-classified values, we need to figure out the reason. It would be because of wrong model or just due to an inevitable error.
 
-![Inevitable](<../../.gitbook/assets/image (52).png>)
+![Inevitable](<../../.gitbook/assets/image (68).png>)
 
 &#x20;
 
@@ -86,11 +86,11 @@ $$
 
 ### Nearest-Neighbor Methods
 
-![](../../.gitbook/assets/ch2\_1.png)
+![](../../.gitbook/assets/ch2_1.png)
 
 In a classification situation, there is a Nearest-Neighbor Method other than Lease Square Method. Lease Square Method is way to find the extreme point in a function to minimize an error, NN is **the way to estimate a value using the average of nearby values.**
 
-****
+
 
 #### Linear Regression 0/1 Response
 
@@ -134,10 +134,9 @@ Kernel method - In KNN, we put a discrete weight(0,1) on data but in kernel meth
 
 
 
-\
+<br>
 
 
 
 
-****
 

@@ -1,6 +1,6 @@
 # Summary
 
-![](<../../.gitbook/assets/image (178).png>)
+![](<../../.gitbook/assets/image (43).png>)
 
 
 

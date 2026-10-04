@@ -32,7 +32,7 @@
 
 Handoff: D3 methods return a **selection** (So it uses chaining)
 
-Without chaining we can also re**-**paragraph above code.
+Without chaining we can also r&#x65;**-**&#x70;aragraph above code.
 
 ```javascript
 var body = d3.select("body");

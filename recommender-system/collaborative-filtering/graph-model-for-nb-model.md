@@ -4,7 +4,7 @@
 
 
 
-![\\](<../../.gitbook/assets/image (134).png>)
+![\\](<../../.gitbook/assets/image (201).png>)
 
 ### Neighborhood definition
 
@@ -28,7 +28,7 @@ $$
 
 ## User-User Graphs
 
-![](<../../.gitbook/assets/image (139).png>)
+![](<../../.gitbook/assets/image (56).png>)
 
 
 

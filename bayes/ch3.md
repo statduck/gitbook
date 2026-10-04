@@ -56,7 +56,7 @@ $$
 
 ### Example
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (181).png>)
 
 (a) Give your posterior distribution for $$\theta$$
 

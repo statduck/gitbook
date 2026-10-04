@@ -1,6 +1,6 @@
 # Clustering & Nearest Neighbor
 
-![](<../../.gitbook/assets/image (145).png>)
+![](<../../.gitbook/assets/image (193).png>)
 
 &#x20; Clustering is the method that binding similar group together. We can cluster customer type based on several variables reflecting some pattern in consumption. In a mathematical expression, we need to bind similar rows of the data matrix. For clustering, usually prototype methods are adopted. Prototype methods are the way to assign each observation to its closest prototype (centroid, medoid, etc.) "Closest" is usually defined by Euclidean distance in a feature space, after each feature has been standardized to have overall mean 0 and variance 1 in the training sample.
 
@@ -122,7 +122,7 @@ Repeat assigning and adjusting until there is no change in $$c_j$$
 2. Assign a class label to each of the $$K \times R$$ prototypes. In this case, $$K$$ is the number of classes, and $$R$$ is the number of prototypes per class.
 3. Classify a new feature $$x$$ to the class of the closest prototype.
 
-![](<../../.gitbook/assets/image (143).png>)
+![](../../.gitbook/assets/image.png)
 
 &#x20;   Learning Vector Quantization is used to correct the prototypes after we select prototypes. This method has the shortcoming that for each class, the other classes don't have a say in the positioning of the prototypes for that class.
 
@@ -204,7 +204,7 @@ def kmeans_vis(data, num_cluster):
     plt.show()
 ```
 
-![Result](<../../.gitbook/assets/image (149).png>)
+![Result](<../../.gitbook/assets/image (87).png>)
 
 ### Gaussian Mixtures
 
@@ -286,7 +286,7 @@ ax.set_title('log likelihood')
 plt.show()
 ```
 
-![](<../../.gitbook/assets/image (99).png>)
+![](<../../.gitbook/assets/image (162).png>)
 
 <details>
 
@@ -316,7 +316,7 @@ $$ln p(X|\mu,\Sigma,\pi)=\sum^N_{n=1}ln\{\sum^K_{k=1}\pi_k N(x_n|\mu_k,\Sigma_k)
 
 </details>
 
-![](<../../.gitbook/assets/image (154).png>)
+![](<../../.gitbook/assets/image (5).png>)
 
 
 
@@ -344,7 +344,7 @@ $$
 
 <summary>Algorithm</summary>
 
-🌻 <mark style="background-color:yellow;">**Initialization**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;"></mark>  a set of cluster centers:$$\{m_1,...,m_K\}$$, and assignment $$C$$
+🌻 <mark style="background-color:yellow;">**Initialization**</mark>   a set of cluster centers:$$\{m_1,...,m_K\}$$, and assignment $$C$$
 
 🌻 <mark style="background-color:yellow;">**Cluster Assignment**</mark>&#x20;
 
@@ -356,7 +356,7 @@ Iterate Assigning/Updating until the assignments do not change.
 
 </details>
 
-&#x20;   In this algorithm, we don't need to compute the cluster center so we can use categorical variables also. We just need to **keep track of the indices** $$i_k^*$$****
+&#x20;   In this algorithm, we don't need to compute the cluster center so we can use categorical variables also. We just need to **keep track of the indices** $$i_k^*$$
 
 
 
@@ -388,17 +388,17 @@ let $$G=\{g_1,...,g_m\}$$
 
 </details>
 
-![Example - Georgia Tech 2021 Fall ISYE 6740 George Lan](<../../.gitbook/assets/image (104).png>)
+![Example - Georgia Tech 2021 Fall ISYE 6740 George Lan](<../../.gitbook/assets/image (47).png>)
 
 
 
-![](<../../.gitbook/assets/image (128).png>)
+![](<../../.gitbook/assets/image (184).png>)
 
 * Single Linkage: $$d_{SL}(G,H)=\min_{i\in G, i' \in H} d_{ii'}$$
 * Complete Linkage: $$d_{CL}(G,H)=min_{i\in G, i' \in H} d_{ii'}$$
 * Group Average: $$d_{GA}(G,H)=\dfrac{1}{N_GN_H}\sum_{i \in G} \sum_{i' \in H} d_{ii'}$$, $$N_G, N_H$$ are the number of observations in each group. (This method is similar with K-means clustering)
 
-![This type of cluster can be done with single linkage, because it uses a minimum distance.](<../../.gitbook/assets/image (98).png>)
+![This type of cluster can be done with single linkage, because it uses a minimum distance.](<../../.gitbook/assets/image (31).png>)
 
 
 
@@ -464,9 +464,9 @@ $$
 R^*\leq R \leq R^*(2-\dfrac{K}{K-1}R^*)
 $$
 
-[Proof](https://isl.stanford.edu/\~cover/papers/transIT/0021cove.pdf)
+[Proof](https://isl.stanford.edu/~cover/papers/transIT/0021cove.pdf)
 
-<mark style="color:red;background-color:yellow;"></mark>
+
 
 ## **Practical Ossues**
 
@@ -479,9 +479,9 @@ $$
 * $$K\in \{1,2,...,K_{max}\}, \; W=\{W_1,W_2,...,W_{K_{max}}\}$$
 * $$K^*=argmin_K\{K|G(K) \geq G(K+1)-s'_{K+1}\}$$
 
-![](<../../.gitbook/assets/image (83).png>)
+![](<../../.gitbook/assets/image (176).png>)
 
-![](<../../.gitbook/assets/image (174).png>)
+![](<../../.gitbook/assets/image (163).png>)
 
 [Reference](https://hastie.su.domains/Papers/gap.pdf) \[Gap statistic]
 
@@ -491,7 +491,7 @@ $$
 
 We can also use a Silhouette value $$S_i = \dfrac{b_i-a_i}{max(a_i,b_i)}$$ . $$a_i$$is the average distance from the $$i$$th data point to the other points in the same cluster, and $$b_i$$ is the minimum average distance from the $$i$$th point to points in a different cluster. When our groups are well clustered, $$b_i-a_i$$ has to become big.&#x20;
 
-![](<../../.gitbook/assets/image (165).png>)
+![](<../../.gitbook/assets/image (78).png>)
 
 
 

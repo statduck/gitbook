@@ -6,7 +6,7 @@ description: Neighborhood-Based Collaborative Filtering
 
 ## <mark style="background-color:red;">Introduction</mark>
 
-![Reference url](<../../.gitbook/assets/image (126).png>)
+![Reference url](<../../.gitbook/assets/image (140).png>)
 
 ### Motivation
 
@@ -36,13 +36,7 @@ description: Neighborhood-Based Collaborative Filtering
 
 ### Rating methods
 
-| Rating                 | Example                    |
-| ---------------------- | -------------------------- |
-| Continuous ratings     | Real value from -10 to 10  |
-| Interval-based ratings | Integer value from 1 to 5  |
-| Ordinal ratings        | Ordered categorical values |
-| Binary ratings         | Positive or Negative       |
-| Unary ratings          | Like button                |
+<table><thead><tr><th width="150">Rating</th><th>Example</th></tr></thead><tbody><tr><td>Continuous ratings</td><td>Real value from -10 to 10</td></tr><tr><td>Interval-based ratings</td><td>Integer value from 1 to 5</td></tr><tr><td>Ordinal ratings</td><td>Ordered categorical values</td></tr><tr><td>Binary ratings</td><td>Positive or Negative</td></tr><tr><td>Unary ratings</td><td>Like button</td></tr></tbody></table>
 
 &#x20;   The element in rating matrix varies by the type of rating method. Above this table, unary rating is an implicit feedback. It needs to be considered PU learning problem(Positive and Unlabeled learning).
 
@@ -50,7 +44,7 @@ description: Neighborhood-Based Collaborative Filtering
 
 &#x20;   The distribution of this rating often has a long tail property because some items are popular but others are not. It leads to a highly skewed distribution of the underlying ratings.&#x20;
 
-![](<../../.gitbook/assets/image (101).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
 * In many cases, high-frequency items give a little profit than the lower frequency item.
 * It is hard to provide robust rating prediction in the long tail part because of the rarity of this region. Many recommendation system has a tendency to suggest popular items rather than infrequent items.
@@ -76,11 +70,11 @@ $$
 
 The system predicts rating of unspecified item for user A.
 
-![](<../../.gitbook/assets/image (151).png>)
+![](<../../.gitbook/assets/image (62).png>)
 
 #### <mark style="background-color:yellow;">**Basic setting**</mark>
 
-<mark style="background-color:yellow;">****</mark>$$I_u$$ is a set of item indices for which ratings have been specified by user $$u$$
+$$I_u$$ is a set of item indices for which ratings have been specified by user $$u$$
 
 $$I_1=\{1,2,3,4,5,6\}, \; I_3=\{2,3,4,5\}, \;I_1\cap I_3=\{2,3,4,5\}$$
 
@@ -168,7 +162,7 @@ $$
 
 ### Item-Based Models
 
-![](<../../.gitbook/assets/image (127).png>)
+![](<../../.gitbook/assets/image (122).png>)
 
 $$
 AdjustedCosine(i,j)=\dfrac{\Sigma_{u\in U_i \cap U_j}s_{ui}\cdot s_{uj}}{\sqrt{\Sigma_{u \in U_i \cap U_j} s^2_{ui}}\cdot \sqrt{\Sigma_{u\in U_i \cap U_j}s^2_{uj}}}
@@ -205,12 +199,7 @@ $$
 * Offline phase: the user-user(or item-item) similarity values and peer groups are computed.
 * Online phase: Similarity values and peer groups are leveraged to make predictions
 
-| Time complexity                 |      User-based     |     Item-based     |
-| ------------------------------- | :-----------------: | :----------------: |
-| Calculating Similarity          | $$O(m^2 \cdot n')$$ | $$O(n^2\cdot m')$$ |
-| Online computation              |       $$O(k)$$      |      $$O(k)$$      |
-| Ranking them for a target user  |   $$O(k\cdot n)$$   |  $$O(k \cdot n)$$  |
-| Ranking users for a target item |   $$O(k \cdot m)$$  |   $$O(k\cdot m)$$  |
+<table><thead><tr><th width="310.41678129298487">Time complexity</th><th width="207.95601922458638" align="center">User-based</th><th align="center">Item-based</th></tr></thead><tbody><tr><td>Calculating Similarity</td><td align="center"><span class="math"> O(m^2 \cdot n')</span></td><td align="center"><span class="math">O(n^2\cdot m')</span></td></tr><tr><td>Online computation</td><td align="center"><span class="math">O(k)</span></td><td align="center"><span class="math"> O(k)</span></td></tr><tr><td>Ranking them for a target user</td><td align="center"><span class="math">O(k\cdot n)</span></td><td align="center"><span class="math">O(k \cdot n)</span></td></tr><tr><td>Ranking users for a target item</td><td align="center"><span class="math">O(k \cdot m)</span></td><td align="center"><span class="math"> O(k\cdot m)</span></td></tr></tbody></table>
 
 ( $$m'$$ is the maximum number of specified ratings and $$n'$$ is the maximum running time for computing the similarity between a pair of users)
 
@@ -248,11 +237,11 @@ Example(SVD method)
 
 ### Bias
 
-![](<../../.gitbook/assets/image (144).png>)
+![](<../../.gitbook/assets/image (161).png>)
 
 &#x20; This table clearly tells the fact that the ratings between Gladiator and Nero are same. It means the correlation between these two movies is high. However, in filling unspecified values(like in the SVD method above), the covariance structure changes as follows. In this case we fill out the missing value as 4(the mean of \[1, 7, 1, 7])
 
-![Estimated Covariance Matrix](<../../.gitbook/assets/image (201).png>)
+![Estimated Covariance Matrix](<../../.gitbook/assets/image (178).png>)
 
 &#x20;This estimated covariance matrix seems wrong, because the covariance between Godfather and Gladiator(4.36) is bigger than one between Gladiator and Nero(2.18). It doesn't match the result of the rating table.
 
@@ -262,7 +251,7 @@ As remedies for bias, <mark style="color:red;">following methods</mark> are sugg
 
 <mark style="color:red;">Assuming covariance matrix based on a generative model.</mark>(Generative model is the term used in a semi-supervised model, and it focuses on the distribution of each class.)
 
-![Estimated Covariance Matrix(From maximum likelihood estimation)](<../../.gitbook/assets/image (188).png>)
+![Estimated Covariance Matrix(From maximum likelihood estimation)](<../../.gitbook/assets/image (133).png>)
 
 
 
