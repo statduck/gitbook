@@ -63,6 +63,7 @@
 
 ## Bayes
 
+* [Bayes](bayes/bayes.md)
 * [Prior, Posterior, Sample](bayes/ch1.md)
 * [One Parameter Model](bayes/untitled.md)
 * [Two parameter model](bayes/ch3.md)
